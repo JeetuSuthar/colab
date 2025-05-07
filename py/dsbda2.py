@@ -65,3 +65,5 @@ df
 outliers = df[abs(df['Attendance']) > 1]
 outliers
 
+#FOR# skewness we can decrese using this log syntac
+#df['Attendance'] = np.log(df['Attendance'])
